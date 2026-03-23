@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sync-to-web"
+version = "0.1.0"
+description = "Desktop app for realtime syncing local project folders to shared hosting over FTP, FTPS, or SFTP."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "PySide6",
+  "watchdog",
+  "keyring",
+  "paramiko",
+]
+
+[project.scripts]
+sync-to-web = "sync_to_web.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

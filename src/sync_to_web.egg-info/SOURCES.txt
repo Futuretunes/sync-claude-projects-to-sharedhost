@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/sync_to_web/__init__.py
+src/sync_to_web/__main__.py
+src/sync_to_web/claude_bridge.py
+src/sync_to_web/config_store.py
+src/sync_to_web/logging_bus.py
+src/sync_to_web/models.py
+src/sync_to_web/remote_clients.py
+src/sync_to_web/sync_engine.py
+src/sync_to_web/ui.py
+src/sync_to_web.egg-info/PKG-INFO
+src/sync_to_web.egg-info/SOURCES.txt
+src/sync_to_web.egg-info/dependency_links.txt
+src/sync_to_web.egg-info/entry_points.txt
+src/sync_to_web.egg-info/requires.txt
+src/sync_to_web.egg-info/top_level.txt

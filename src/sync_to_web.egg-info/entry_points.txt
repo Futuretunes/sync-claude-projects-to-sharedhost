@@ -1,0 +1,2 @@
+[console_scripts]
+sync-to-web = sync_to_web.__main__:main
